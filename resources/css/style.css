@@ -1,0 +1,44 @@
+/* Universal CSS */
+
+html {
+  font-size: 14px;
+  font-family: 'open sans';
+}
+.image-container {
+  opacity: 0.7;
+}
+
+/* Header */
+
+/* Navigation */
+
+.navbar-default .navbar-nav > .active > a {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+}
+
+@media only screen and (max-width: 320px) {
+  .active > img {
+    display: none;
+  }
+}
+
+/* Jumbotron Section */
+
+#jumbo-sec {
+  background-image: url('../images/jumbotron-bike.jpg');
+}
+.jumbotron-bike > h1 p {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Featured Section */
+
+#feat-sec .image-container {
+
+}
+
+/* Projects */
