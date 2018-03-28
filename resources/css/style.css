@@ -77,6 +77,7 @@ html {
   color: white !important;
   padding-bottom: 10rem;
   margin-bottom: 0px;
+  height: 46rem;
 }
 .jumbotron h1 {
   font-family: "monoton", sans-serif;
@@ -88,7 +89,7 @@ html {
 }
 .btn {
   position: relative;
-  bottom: 5rem;
+  bottom: 12rem;
   width: 11.4rem;
 }
 .btn > p {
@@ -132,5 +133,5 @@ html {
 }
 #ts-text {
   padding-top: 3rem;
-  padding-bottom: 10rem;
+  padding-bottom: 14rem;
 }
